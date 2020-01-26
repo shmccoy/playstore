@@ -18,7 +18,7 @@ app.get('/app', (req, res) => {
         .send('Sort must be one of rating or app');
     }
   }
-  
+
   let results = [...playstore]
 
   if (sort) {
